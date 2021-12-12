@@ -3,7 +3,7 @@ version: "3"
 services:
   web:
     build: .
-    container_name: azure-fastapi-webapp
+    container_name: azure-webapp
     volumes:
       - .:/code
     ports:
