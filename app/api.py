@@ -21,7 +21,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return "Wine Quality Ratings !!!"
+    return "Wine Quality Ratings !"
 
 # @app.post("/update_model")
 # def update_model(model_name: str, version: int):
